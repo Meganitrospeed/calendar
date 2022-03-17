@@ -7,11 +7,11 @@ import { createEvent, DateArray } from "ics";
 import nodemailer from "nodemailer";
 
 import { getErrorFromUnknown } from "@calcom/lib/errors";
+import { serverConfig } from "@calcom/lib/serverConfig";
 
 import { getCancelLink, getRichDescription } from "@lib/CalEventParser";
 import { getIntegrationName } from "@lib/integrations";
 import { CalendarEvent, Person } from "@lib/integrations/calendar/interfaces/Calendar";
-import { serverConfig } from "@lib/serverConfig";
 
 import {
   emailHead,
