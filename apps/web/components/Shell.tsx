@@ -353,7 +353,7 @@ export default function Shell(props: {
               {/* add padding to content for mobile navigation*/}
               <div className="block pt-12 md:hidden" />
             </div>
-            <LicenseBanner />
+            /*<LicenseBanner />*/
           </main>
         </div>
       </div>
